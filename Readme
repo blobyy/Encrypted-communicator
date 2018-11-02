@@ -1,0 +1,12 @@
+Tematem projektu jest komunikator tekstowy z funkcją szyfrowania.
+
+Aplikacja typu klient-serwer będzie umożliwiała szyfrowaną tekstową komunikację end to end z użytkownikami podłączonymi do serwera.
+
+Założenia:
+
+Aplikacja okienkowa
+Możliwość wysyłania obrazów (niekoniecznie szyfrowane)
+Możliwość komunikacji z innymi użytkownikami w sposób szyfrowany
+Historia wiadomości po stronie klienta
+Brak logów po stronie serwera ( w wersji finalnej)
+Język programowania C++.
