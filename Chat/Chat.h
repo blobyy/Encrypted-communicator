@@ -1,15 +1,26 @@
-#pragma once
+#ifndef CHAT_H
+#define CHAT_H
 
-#include <QtWidgets/QMainWindow>
-#include "ui_Chat.h"
+#include <QMainWindow>
 
-class Chat : public QMainWindow
+namespace Ui {
+class chat;
+}
+
+class chat : public QMainWindow
 {
-	Q_OBJECT
+    Q_OBJECT
 
 public:
-	Chat(QWidget *parent = Q_NULLPTR);
+    explicit chat(QWidget *parent = nullptr);
+    ~chat();
+
+private slots:
+    void on_SendButton_clicked();
 
 private:
-	Ui::ChatClass ui;
+    Ui::chat *ui;
+    void testpaste();
 };
+
+#endif // CHAT_H
